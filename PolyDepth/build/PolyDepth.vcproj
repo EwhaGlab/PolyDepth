@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="../.., ../../PQP_v1.3/src"
+				AdditionalIncludeDirectories="../.., ../../PQP/src"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -108,7 +108,7 @@
 				InlineFunctionExpansion="2"
 				EnableIntrinsicFunctions="true"
 				WholeProgramOptimization="false"
-				AdditionalIncludeDirectories="../.., ../../PQP_v1.3/src"
+				AdditionalIncludeDirectories="../.., ../../PQP/src"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;_WINDOWS"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
