@@ -13,28 +13,20 @@ To run the code, VC++ 9.0 or higher is needed.
 
 To run PolyDepth, two libraries are needed, **PQP** and **C2A**.
 
-1. Please download PQP at [here](http://www.cs.unc.edu/%7Egeom/SSV/index.html). **PQP_v1.3** version is needed.
+1. Please download PQP at [here](https://github.com/GammaUNC/PQP).
 
 
-2. Copy the entire PQP_v1.3 folder into the root path.
+2. Copy all contents of PQP to a new folder named `PQP` in the root path.
 
 
-3. Please download C2A at [here](http://code.google.com/p/c2a-ewha/). **C2A_1.3** or higher version is needed.
+3. Please download C2A at [here](https://github.com/EwhaGlab/C2A).
 
 
 4. Copy only the C2A folder into the root path.
 
 
-5. Copy the files PQP.sln and PQP.vcproj into PQP_v1.3 folder.
+5. Copy the files PQP.sln and PQP.vcproj into PQP folder.
 
-
-6. Comment the follow sentences in `PQP_Compile.h`
-    ```c++
-    inline float sqrt(float x) { return (float)sqrt((double)x); }
-    inline float cos(float x) { return (float)cos((double)x); }
-    inline float sin(float x) { return (float)sin((double)x); }
-    inline float fabs(float x) { return (float)fabs((double)x); }
-    ```
 
 ## About the project
 In PolyDepth.sln, two projects exist other than C2A and PQP:
